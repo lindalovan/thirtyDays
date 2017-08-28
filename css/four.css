@@ -1,0 +1,162 @@
+body{
+  background-color:black;
+  margin:0;
+  padding:0;
+  font-family: 'Amiko', sans-serif;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#FE816F, #eee, #E7C280); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FE816F, #eee, #E7C280); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FE816F, #eee, #E7C280); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FE816F, #eee, #E7C280); /* Standard syntax */
+}
+
+.row{
+  margin:0;
+  padding:0;
+}
+
+img{
+  margin-left:auto;
+  margin-right:auto;
+  align-items: center;
+  padding:0;
+}
+
+/***********
+HEADER
+***********/
+
+div.header{
+  padding:15px;
+}
+
+div.link{
+  margin-right:0;
+  text-align:right;
+}
+
+p.links{
+  margin-right:0;
+  text-align:right;
+  color:black;
+}
+
+/***********
+ONE
+***********/
+
+div.intro-container{
+  background-color:transparent;
+  height:auto;
+  padding:15px;
+  margin:10px;
+}
+
+div.intro{
+  padding:0;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:transparent;
+  max-width: 1000px;
+  padding-top:30px;
+  padding-bottom:70px;
+  border-width:thick;
+  border-color:#AF8C37;
+}
+
+div.top-balloon{
+  position:relative;
+  top:20px;
+}
+
+div.big-balloon{
+  position:relative;
+  right:-40px;
+  top:-110px;
+}
+
+div.bigcloud{
+  position:relative;
+  left:-40px;
+}
+
+img.img-bigcloud{
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:100%;
+}
+
+span.attraction{
+  position: absolute;
+  top: 65px;
+  color:red;
+  margin-left:auto;
+  margin-right:auto;
+  left:27%;
+  padding:15px;
+  width:auto;
+}
+
+h1.header-intro{
+  color:red;
+  font-weight: 700;
+}
+
+h3.location{
+  color:red;
+}
+
+p,h1,h2{
+  vertical-align: middle;
+  text-align:center;
+  color:#fff;
+}
+
+div.sky{
+  padding-bottom:50px;
+}
+
+.product-section1{
+  background-color:#DAD552;
+}
+
+div.product{
+  max-height:100%;
+  max-width:600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.product-img{
+  max-width:100%;
+  float:left;
+  clear:both;
+  right:0;
+  position:relative;
+}
+
+h1.product-name1{
+  float:right;
+  clear:both;
+  vertical-align: middle;
+}
+
+/***********
+FOOTER
+***********/
+
+div.footer{
+  background-color:#E5E7EC;
+  height:150px;
+}
+
+/***********
+Media Queries
+***********/
+
+@media (max-width:750px){
+  .top-balloon,.big-balloon{
+    position:none;
+  }
+}
