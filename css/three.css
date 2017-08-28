@@ -58,6 +58,8 @@ div.intro{
   margin-right:auto;
   background-color:transparent;
   max-width: 1000px;
+  padding-top:30px;
+  padding-bottom:70px;
 }
 
 div.bigcloud{
