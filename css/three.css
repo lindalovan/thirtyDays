@@ -60,8 +60,14 @@ div.intro{
   max-width: 1000px;
 }
 
-div.bigcloud{
+div.big-balloon{
+  position:relative;
+  right:-40px;
+}
 
+div.bigcloud{
+  position:relative;
+  left:-40px;
 }
 
 img.img-bigcloud{
@@ -71,7 +77,7 @@ img.img-bigcloud{
   max-width:100%;
 }
 
-h1.attraction{
+span.attraction{
   position: absolute;
   top: 150px;
   color:red;
