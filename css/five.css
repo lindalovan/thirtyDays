@@ -1,8 +1,8 @@
 body{
-  background-color:white;
+  background-color:#fdf6e1;
   margin:0;
   padding:0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .row{
@@ -37,8 +37,18 @@ p.links{
 }
 
 /***********
-FOUR
+FIVE
 ***********/
+
+div.container{
+  background-color:#d3f8ed;
+  margin:20px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px 20px 50px 20px;
+  border-color:#cca334;
+  border-width:thick;
+}
 
 div.intro-container{
   background-color:transparent;
@@ -53,8 +63,6 @@ div.intro{
   margin-right:auto;
   background-color:transparent;
   max-width: 1000px;
-  padding-top:30px;
-  padding-bottom:70px;
   border-width:thick;
   border-color:#AF8C37;
 }
@@ -62,64 +70,31 @@ div.intro{
 .logo{
   margin-left:auto;
   margin-right:auto;
-  max-width:550px;
+  max-width:700px;
+}
+
+div.menu{
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 p,h1,h2{
   vertical-align: middle;
   text-align:center;
-  color:#fff;
+  color:#444;
 }
 
-div.product{
-  max-width:400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding:20px;
+h2.item{
+  color:#647771;
 }
 
-img.product-img{
-  max-width:100%;
-  margin-left:auto;
-  margin-right:auto;
-  background-color:black;
+h1.script{
+  font-family: 'Sacramento', cursive;
+  color:#cca334;
+  font-size:5em;
 }
 
-h1.product-name1{
-  margin-left:auto;
-  margin-right:auto;
-  top:50px;
-}
-
-.product-section1{
-  background-color:#DAD552;
-  height:auto;
-}
-
-.product-section2{
-  background-color:#311D40;
-  height:auto;
-}
-
-.product-section3{
-  background-color:#FCA202;
-  height:auto;
-}
-
-.product-section4{
-  background-color:#F9373E;
-  height:auto;
-}
-
-.product-section5{
-  background-color:#9E3328;
-  height:auto;
-}
-
-.product-section6{
-  background-color:#93D2D7;
-  height:auto;
-}
 /***********
 FOOTER
 ***********/
