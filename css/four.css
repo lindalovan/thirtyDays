@@ -52,17 +52,21 @@ div.intro{
   margin-left:auto;
   margin-right:auto;
   background-color:transparent;
-  max-width: 1000px;
+  max-width: auto;
   padding-top:30px;
   padding-bottom:70px;
-  border-width:thick;
+  border-width:thin;
   border-color:#AF8C37;
+  border-style: solid;
 }
 
 .logo{
   margin-left:auto;
   margin-right:auto;
   max-width:550px;
+  border-color:#AF8C37;
+  border-width:thin;
+  border-style:none;
 }
 
 p,h1,h2{
@@ -89,6 +93,12 @@ h1.product-name1{
   margin-left:auto;
   margin-right:auto;
   top:50px;
+}
+
+.all-products{
+  max-width:1500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .product-section1{
